@@ -4,22 +4,97 @@ Based on the open datasets of ASAS-SN, Gaia and ZTF, we construct a compatible l
 
 We provide the light curves of these objects by class in csv files in https://drive.google.com/drive/folders/1R8r4oBXKxLdC6puUkS4IUx4VTY_lTluW. The composition of LEAVES is shown in table below:
 
-\begin{table}[]
-\begin{tabular}{c|c|c|c|c|c|c}
-\hline
-Class & Subclass & ASAS-SN\_v & ASAS-SN\_g & ZTF & Gaia & Total \\ \hline
-\multirow{2}{*}{Eclipsing binaries(EB)} & EA & 37463 & 10695 & 29198 & \multirow{2}{*}{6785} & \multirow{2}{*}{421025} \\
- & EW & 57058 & 22724 & 257093 &  &  \\ \hline
-Rotational variables(ROT) & ROT & 16850 & 4202 & 98060 & 0 & 119112 \\ \hline
-\multirow{2}{*}{RR Lyrae(RR)} & RRAB & 13244 & 10981 & 17598 & 840 & 61366 \\
- & RRC & 5959 & 3624 & 9120 &  &  \\ \hline
-Cepheids(CEP) & CEP & 1003 & 405 & 1074 & 2 & 2484 \\ \hline
-\multirow{2}{*}{Long period variables(LPV)} & SR & 140997 & 143376 & 46738 & \multirow{2}{*}{5095} & \multirow{2}{*}{355374} \\
- & M & 7884 & 6133 & 5151 &  &  \\ \hline
-Delta Scuti(DSCT) & DSCT & 3718 & 939 & 13944 & 0 & 18601 \\ \hline
-Non-var &  & 134592 &  &  &  & 134592 \\ \hline
-\end{tabular}
-\end{table}
-
+<table>
+        <tr>
+        <th>Class</th>
+        <th>Subclass</th>
+        <th>ASAS-SN_V</th>
+        <th>ASAS-SN_g</th>
+        <th>ZTF</th>
+        <th>Gaia</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Eclipsing binaries(EB)</td>
+        <td>EA</td>
+        <td>37463</td>
+        <td>10695</td>
+        <td>29198</td>
+        <td rowspan="2">6785</td>
+        <td rowspan="2">421025</td>
+    </tr>
+    <tr>
+        <td>EW</td>
+        <td>57058</td>
+        <td>22724</td>
+        <td>257093</td>
+    </tr>
+    <tr>
+        <td>Rotational variables(ROT)</td>
+        <td>ROT</td>
+        <td>16850</td>
+        <td>4202</td>
+        <td>98060</td>
+        <td> </td>
+        <td>119112</td>
+    </tr>
+    <tr>
+        <td rowspan="2">RR Lyrae(RR)</td>
+        <td>RRAB</td>
+        <td>13244</td>
+        <td>10981</td>
+        <td>17598</td>
+        <td rowspan="2">840</td>
+        <td rowspan="2">61366</td>
+    </tr>
+    <tr>
+        <td>RRC</td>
+        <td>5959</td>
+        <td>3624</td>
+        <td>9120</td>
+    </tr>
+    <tr>
+        <td>Cepheids(CEP)</td>
+        <td>CEP</td>
+        <td>1003</td>
+        <td>405</td>
+        <td>1074</td>
+        <td>2</td>
+        <td>2484</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Long period variables(LPV)</td>
+        <td>SR</td>
+        <td>140997</td>
+        <td>143376</td>
+        <td>46738</td>
+        <td rowspan="2">5095</td>
+        <td rowspan="2">355374</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>7884</td>
+        <td>6133</td>
+        <td>5151</td>
+    </tr>
+    <tr>
+        <td>Delta Scuti(DSCT)</td>
+        <td>DSCT</td>
+        <td>3718</td>
+        <td>939</td>
+        <td>13944</td>
+        <td> </td>
+        <td>18601</td>
+    </tr>
+    <tr>
+        <td>Non-var</td>
+        <td>Non-var</td>
+        <td>134592</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>134592</td>
+    </tr>
+</table>
 
 The full data set and machine learning models are also available and will be released officially at the China National Astronomical Data Center. 
